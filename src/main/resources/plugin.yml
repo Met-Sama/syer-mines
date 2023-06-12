@@ -1,0 +1,4 @@
+name: syer-mines
+version: '${project.version}'
+main: com.syer.syermines.Syer_mines
+api-version: 1.19
