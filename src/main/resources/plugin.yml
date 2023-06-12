@@ -1,4 +1,14 @@
 name: syer-mines
 version: '${project.version}'
-main: com.syer.syermines.Syer_mines
+main: com.syer.syermines.Main
 api-version: 1.19
+commands:
+  syermine:
+    description: SyerMine plugin command
+    usage: /syermine <subcommand>
+  create:
+    description: Creates a new zone
+    usage: /syermine create <nome>
+  main:
+    description: Opens the main GUI
+    usage: /syermine main
